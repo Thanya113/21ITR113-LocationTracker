@@ -1,0 +1,113 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ff9966;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff5e62;
+}
+
+/* Location data styles */
+#locationData {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coordinates span {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+/* Graph styles */
+#graphContainer {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

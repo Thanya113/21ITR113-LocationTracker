@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <span class="navbar-topic">Location Tracker</span>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <header>
+                    <h1>Location Details</h1>
+                </header>
+                <section id="locationSection">
+                    <div id="locationData" class="coordinates">
+                        <span id="latitude">Latitude:</span>
+                        <span id="longitude">Longitude:</span>
+                    </div>
+                    <br/>
+                    <button id="getLocationBtn">Get Location</button>
+                </section>
+            </div>
+            <div class="col">
+                <section id="graphSection">
+                    <header>
+                        <h1>Location History</h1>
+                    </header>
+                    <div id="graphContainer"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
